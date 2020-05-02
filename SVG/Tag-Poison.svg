@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="60" viewBox="0 0 140 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b563ce;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-4 {
+        filter: url(#Rectangle);
+      }
+    </style>
+    <filter id="Rectangle" x="0" y="0" width="140" height="60" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#b563ce" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Tag_Poison" data-name="Tag/Poison" transform="translate(10 10)">
+    <g id="Group_4" data-name="Group 4" transform="translate(5 5)">
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, -15, -15)">
+        <rect id="Rectangle-2" data-name="Rectangle" class="cls-1" width="110" height="30" rx="15" transform="translate(15 15)"/>
+      </g>
+      <text id="POISON" class="cls-2" transform="translate(24 7)"><tspan x="17.82" y="13">POISON</tspan></text>
+      <path id="Oval_3" data-name="Oval 3" class="cls-3" d="M10.658,15a1.852,1.852,0,0,1-1.58-1.059A1.85,1.85,0,0,1,7.5,15a1.923,1.923,0,0,1-1.678-1.253A1.924,1.924,0,0,1,4.145,15c-1.088,0-1.974-1.188-1.974-2.648a3.476,3.476,0,0,1,.133-.959A6.219,6.219,0,0,1,0,6.62C0,2.97,3.364,0,7.5,0S15,2.97,15,6.62a6.313,6.313,0,0,1-2.467,4.908,3.454,3.454,0,0,1,.1.825C12.632,13.813,11.746,15,10.658,15ZM7.4,3.39C4.953,3.39,2.96,4.9,2.96,6.751S4.953,10.111,7.4,10.111,11.842,8.6,11.842,6.751,9.85,3.39,7.4,3.39Z" transform="translate(14 7)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Baloo+Bhaina+2:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="shortcut icon" href="./IMG/pokeball.png" type="image/x-icon">
+    <title>Pokedex</title>
+</head>
+<body onload="pokemonList.getPokemon()">
+    <header class="cabecalho">
+        <img src="./IMG/pokeball.png" alt="" id="logo-pokeball">
+        <img src="./IMG/pokedex.png" alt="" id="logo-pokedex">
+    </header>
+    
+    <main class="conteudo" id="conteudoP">
+        
+    </main>
+    
+</body>
+<script src="JS/PokemonList.js"></script>
+<script src="JS/PokemonView.js"></script>
+<script>
+    var pokemonList = new PokemonList()
+</script>
+</html>

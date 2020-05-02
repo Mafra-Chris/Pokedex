@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="60" viewBox="0 0 140 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6970c5;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-4 {
+        filter: url(#Rectangle);
+      }
+    </style>
+    <filter id="Rectangle" x="0" y="0" width="140" height="60" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#6970c5" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Tag_Ghost" data-name="Tag/Ghost" transform="translate(10 10)">
+    <g id="Group_4" data-name="Group 4" transform="translate(5 5)">
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, -15, -15)">
+        <rect id="Rectangle-2" data-name="Rectangle" class="cls-1" width="110" height="30" rx="15" transform="translate(15 15)"/>
+      </g>
+      <text id="GHOST" class="cls-2" transform="translate(24 7)"><tspan x="20.27" y="13">GHOST</tspan></text>
+      <path id="Oval_10" data-name="Oval 10" class="cls-3" d="M6.889,13.952a8.5,8.5,0,0,1-4.882-2.316A6.618,6.618,0,0,1,0,6.858,6.938,6.938,0,0,1,7,0a6.938,6.938,0,0,1,7,6.858,6.763,6.763,0,0,1-1.793,4.582.306.306,0,0,0-.1.257c.032.2.339.374.635.539s.609.34.656.55a.3.3,0,0,1-.067.248,5.839,5.839,0,0,1-3.244.917C9.477,13.983,8.807,14,8.2,14A12.13,12.13,0,0,1,6.889,13.952ZM8.86,7.072A1.084,1.084,0,0,0,9.953,6a1.068,1.068,0,0,0-.548-.928A.963.963,0,0,1,8.442,6H7.765A1.085,1.085,0,0,0,8.86,7.072ZM3.828,6A1.094,1.094,0,0,0,6.016,6H5.34a.964.964,0,0,1-.964-.928A1.068,1.068,0,0,0,3.828,6Z" transform="translate(14 7)"/>
+    </g>
+  </g>
+</svg>

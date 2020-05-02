@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="60" viewBox="0 0 140 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7ed4c9;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-4 {
+        filter: url(#Rectangle);
+      }
+    </style>
+    <filter id="Rectangle" x="0" y="0" width="140" height="60" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#7ed4c9" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Tag_Ice" data-name="Tag/Ice" transform="translate(10 10)">
+    <g id="Group_4" data-name="Group 4" transform="translate(5 5)">
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, -15, -15)">
+        <rect id="Rectangle-2" data-name="Rectangle" class="cls-1" width="110" height="30" rx="15" transform="translate(15 15)"/>
+      </g>
+      <text id="ICE" class="cls-2" transform="translate(24 7)"><tspan x="31.153" y="13">ICE</tspan></text>
+      <g id="Group_2" data-name="Group 2" transform="translate(14 6)">
+        <path id="Polygon" class="cls-3" d="M2.3,0,4.7,3.9,2.268,7.6,0,3.917Z" transform="translate(10.68 0.151) rotate(31)"/>
+        <path id="Polygon-2" data-name="Polygon" class="cls-3" d="M2.149,0,4.34,3.991,2.007,7.906,0,3.918Z" transform="matrix(0.017, 1, -1, 0.017, 16.618, 6.401)"/>
+        <path id="Polygon_Copy" data-name="Polygon Copy" class="cls-3" d="M2.149,0,4.34,3.991,2.007,7.906,0,3.918Z" transform="matrix(0.017, 1, -1, 0.017, 8.008, 6.401)"/>
+        <path id="Polygon-3" data-name="Polygon" class="cls-3" d="M2.3,0,4.7,3.9,2.268,7.6,0,3.917Z" transform="matrix(0.848, -0.53, 0.53, 0.848, 2.097, 2.536)"/>
+        <path id="Polygon-4" data-name="Polygon" class="cls-3" d="M2.3,0,4.7,3.9,2.268,7.6,0,3.917Z" transform="matrix(-0.848, 0.53, -0.53, -0.848, 14.716, 14.492)"/>
+        <path id="Polygon-5" data-name="Polygon" class="cls-3" d="M2.3,0,4.7,3.9,2.268,7.6,0,3.917Z" transform="translate(6.162 16.938) rotate(-149)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="60" viewBox="0 0 140 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d78555;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-4 {
+        filter: url(#Rectangle);
+      }
+    </style>
+    <filter id="Rectangle" x="0" y="0" width="140" height="60" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#d78555" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Tag_Ground" data-name="Tag/Ground" transform="translate(10 10)">
+    <g id="Group_4" data-name="Group 4" transform="translate(5 5)">
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, -15, -15)">
+        <rect id="Rectangle-2" data-name="Rectangle" class="cls-1" width="110" height="30" rx="15" transform="translate(15 15)"/>
+      </g>
+      <text id="GROUND" class="cls-2" transform="translate(24 7)"><tspan x="14.513" y="13">GROUND</tspan></text>
+      <path id="Path_6" data-name="Path 6" class="cls-3" d="M.2,11a.2.2,0,0,1-.189-.272L2.748,3.417a.2.2,0,0,1,.188-.13H5.029a.2.2,0,0,1,.189.27L2.57,10.868A.2.2,0,0,1,2.381,11Zm3.171-.042H3.306a.051.051,0,0,1-.041-.059L7.074.134A.2.2,0,0,1,7.263,0h3.859a.2.2,0,0,1,.19.135l3.68,10.555a.2.2,0,0,1-.19.267H3.369Z" transform="translate(14 9)"/>
+    </g>
+  </g>
+</svg>
