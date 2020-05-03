@@ -1,6 +1,7 @@
 body{
     background-image: url(../IMG/enviroment.png);
-    
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .cabecalho{
