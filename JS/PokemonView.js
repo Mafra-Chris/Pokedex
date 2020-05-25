@@ -16,7 +16,6 @@ class PokemonView {
             let divCard = document.createElement('div');
             let imgPokemon = document.createElement('img');
             let divDetails = document.createElement('div');
-            let divTypes = document.createElement('div');
             let pNum = document.createElement('p');
             let h3Name = document.createElement('h3');
             let type0 = document.createElement("img");
